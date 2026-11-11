@@ -1,0 +1,150 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.9.0/schema.json",
+  "name": "a55a567e529b4bbc67f0",
+  "position": {
+    "x": 793.14159366153547,
+    "y": 550.25913331881611,
+    "z": 8000,
+    "height": 135.84951171711421,
+    "width": 459.6927921740733,
+    "tabOrder": 8000
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Rows": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "HR_Analytics"
+                    }
+                  },
+                  "Property": "JobRole"
+                }
+              },
+              "queryRef": "HR_Analytics.JobRole",
+              "nativeQueryRef": "JobRole",
+              "active": true
+            }
+          ]
+        },
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "HR_Analytics"
+                    }
+                  },
+                  "Property": "Nb_Heures_Supplémentaires"
+                }
+              },
+              "queryRef": "HR_Analytics.Nb_Heures_Supplémentaires",
+              "nativeQueryRef": "Nb_Heures_Supplémentaires"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "HR_Analytics"
+                    }
+                  },
+                  "Property": "Taux_Absentéisme_Pct"
+                }
+              },
+              "queryRef": "HR_Analytics.Taux_Absentéisme_Pct",
+              "nativeQueryRef": "Taux_Absentéisme_Pct"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Measure": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "HR_Analytics"
+                  }
+                },
+                "Property": "Nb_Heures_Supplémentaires"
+              }
+            },
+            "direction": "Descending"
+          }
+        ],
+        "isDefaultSort": true
+      }
+    },
+    "objects": {
+      "total": [
+        {
+          "properties": {
+            "totals": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  },
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "b509b4ce6da57826c925",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "HR_Analytics"
+              }
+            },
+            "Property": "JobRole"
+          }
+        },
+        "type": "Categorical"
+      },
+      {
+        "name": "543eae3b016c1dd63dbc",
+        "field": {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "HR_Analytics"
+              }
+            },
+            "Property": "Nb_Heures_Supplémentaires"
+          }
+        },
+        "type": "Advanced"
+      },
+      {
+        "name": "77a397ff0648c801f4be",
+        "field": {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "HR_Analytics"
+              }
+            },
+            "Property": "Taux_Absentéisme_Pct"
+          }
+        },
+        "type": "Advanced"
+      }
+    ]
+  }
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tableau de bord RH - GREAT DEMO</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/powerbi-client/2.22.0/powerbi.min.js"></script>
+  <style>
+    :root {
+      --vanier-blue: #002B5C;
+      --vanier-red: #D32F2F;
+      --vanier-yellow: #FBC02D;
+    }
+  </style>
+</head>
+<body class="font-sans antialiased bg-gray-50">
+  <div class="flex min-h-screen">
+    <!-- Sidebar -->
+    <aside class="w-64 bg-white border-r border-gray-200 flex flex-col">
+      <div class="p-6 border-b border-gray-200">
+        <h1 class="text-2xl font-bold text-[var(--vanier-blue)]">Great Demo</h1>
+        <p class="text-sm text-gray-500 mt-1">Tableau de bord RH</p>
+      </div>
+      <nav class="mt-6 flex-1 overflow-y-auto">
+        <ul class="space-y-1">
+          <li>
+            <a href="#" class="flex items-center px-4 py-3 text-sm font-medium text-gray-700 hover:bg-[var(--vanier-blue)]/5 hover:text-[var(--vanier-blue)] transition-colors">
+              <svg class="w-5 h-5 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 011-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 01-1 1H3z"></path></svg>
+              Tableau de bord
+            </a>
+          </li>
+          <li>
+            <a href="#" class="flex items-center px-4 py-3 text-sm font-medium text-gray-700 hover:bg-[var(--vanier-blue)]/5 hover:text-[var(--vanier-blue)] transition-colors">
+              <svg class="w-5 h-5 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 000 4h2a2 2 0 000-4h-2m0 0h2a2 2 0 010 4h-2m0 6l2-2m-2 2l2 2"></path></svg>
+              Rapports
+            </a>
+          </li>
+          <li>
+            <a href="#" class="flex items-center px-4 py-3 text-sm font-medium text-gray-700 hover:bg-[var(--vanier-blue)]/5 hover:text-[var(--vanier-blue)] transition-colors">
+              <svg class="w-5 h-5 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm0 12c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm0-14c2.21 0 4 1.79 4 4h-2c0-1.1-.9-2-2-2zm0 6c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2z"></path></svg>
+              Employés
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <div class="p-6 pt-0 border-t border-gray-200">
+        <a href="#" class="w-full flex items-center px-4 py-3 text-sm font-medium text-[var(--vanier-red)] hover:bg-[var(--vanier-red)]/5">
+          <svg class="w-5 h-5 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3"></path></svg>
+          Aide & Support
+        </a>
+      </div>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="flex-1 p-6">
+      <div class="mb-6">
+        <h2 class="text-2xl font-semibold text-[var(--vanier-blue)]">Tableau de bord RH - Great Demo</h2>
+        <p class="text-sm text-gray-600 mt-2">
+          Ce tableau de bord présente les indicateurs clés de performance RH du Great Demo, incluant l'effectif total, le taux de rotation du personnel, 
+          les scores de satisfaction au travail, la répartition par département et ancienneté, ainsi que l'analyse des heures supplémentaires et de l'absentéisme. 
+          Utilisez les filtres latéraux pour explorer les données par département ou par tranche de salaire.
+        </p>
+      </div>
+
+      <!-- Power BI Embed via iframe -->
+      <div class="border rounded-lg shadow-lg overflow-hidden">
+        <iframe
+         id="pbiReport"
+          width="100%"
+          height="100%"
+        
+  
+          allowFullScreen="true"
+          class="w-full h-[calc(100vh-4.5rem)]"
+        ></iframe>
+      </div>
+    </main>
+  </div>
+
+  <script>
+    // On récupère l'adresse stockée dans le fichier config.js
+    const adressePowerBI = CONFIG.POWERBI_URL;
+    
+    // On l'injecte instantanément dans l'attribut src de l'iframe
+    document.getElementById('pbiReport').src = adressePowerBI;
+</script>
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,114 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.9.0/schema.json",
+  "name": "aee06fdc8752af4e4364",
+  "position": {
+    "x": 19.211042061006047,
+    "y": 124.87177339653931,
+    "z": 1000,
+    "height": 164.66607480862328,
+    "width": 756.09172682959513,
+    "tabOrder": 1000
+  },
+  "visual": {
+    "visualType": "clusteredColumnChart",
+    "query": {
+      "queryState": {
+        "Category": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "HR_Analytics"
+                    }
+                  },
+                  "Property": "Department"
+                }
+              },
+              "queryRef": "HR_Analytics.Department",
+              "nativeQueryRef": "Department",
+              "active": true
+            }
+          ]
+        },
+        "Y": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "HR_Analytics"
+                    }
+                  },
+                  "Property": "Nb_Promotions_Cette_Année"
+                }
+              },
+              "queryRef": "HR_Analytics.Nb_Promotions_Cette_Année",
+              "nativeQueryRef": "Nb_Promotions_Cette_Année"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Measure": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "HR_Analytics"
+                  }
+                },
+                "Property": "Nb_Promotions_Cette_Année"
+              }
+            },
+            "direction": "Descending"
+          }
+        ],
+        "isDefaultSort": true
+      }
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {}
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  },
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "ab142eb79ae417fb8981",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "HR_Analytics"
+              }
+            },
+            "Property": "Department"
+          }
+        },
+        "type": "Categorical"
+      },
+      {
+        "name": "2d741c26157afbbe5136",
+        "field": {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "HR_Analytics"
+              }
+            },
+            "Property": "Nb_Promotions_Cette_Année"
+          }
+        },
+        "type": "Advanced"
+      }
+    ]
+  }
+}

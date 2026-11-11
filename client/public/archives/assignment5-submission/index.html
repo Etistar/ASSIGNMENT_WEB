@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Frame &mdash; JSON Slideshow Gallery</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="sprockets sprockets--top" aria-hidden="true"></div>
+
+  <main class="stage">
+
+    <header class="masthead">
+      <span class="masthead__eyebrow">COMP125 &middot; Assignment 5</span>
+      <h1 class="masthead__title">Frame</h1>
+      <p class="masthead__sub">A slideshow, loaded from your own JSON reel.</p>
+    </header>
+
+    <!-- UPLOAD PANEL -->
+    <section id="uploadPanel" class="panel">
+      <form id="uploadForm" class="panel__form" novalidate>
+        <label for="jsonInput" class="panel__label">Choose a .json reel file</label>
+        <div class="filefield">
+          <input type="file" id="jsonInput" name="jsonInput" accept=".json,application/json">
+        </div>
+        <button type="submit" class="btn btn--primary">Load slideshow</button>
+        <p id="errorMessage" class="error" role="alert" aria-live="polite"></p>
+      </form>
+    </section>
+
+    <!-- SLIDESHOW PANEL (hidden until a valid JSON file is loaded) -->
+    <section id="slideshowPanel" class="panel panel--slideshow hidden">
+
+      <div class="frame">
+        <img id="slideImage" class="frame__image" src="" alt="Slideshow image">
+        <div class="frame__counter">
+          <span id="frameCurrent">01</span><span class="frame__divider">/</span><span id="frameTotal">01</span>
+        </div>
+      </div>
+
+      <div class="controls">
+        <button id="prevBtn" class="ctrl-btn" type="button" aria-label="Previous image" title="Previous">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
+        </button>
+
+        <button id="playPauseBtn" class="ctrl-btn ctrl-btn--play" type="button" aria-label="Pause slideshow" title="Play / Pause">
+          <svg id="iconPause" viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><rect x="6" y="4" width="4" height="16" rx="1"></rect><rect x="14" y="4" width="4" height="16" rx="1"></rect></svg>
+          <svg id="iconPlay" viewBox="0 0 24 24" width="20" height="20" fill="currentColor" class="hidden"><polygon points="6 3 20 12 6 21 6 3"></polygon></svg>
+        </button>
+
+        <button id="nextBtn" class="ctrl-btn" type="button" aria-label="Next image" title="Next">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+        </button>
+      </div>
+
+      <div class="progressbar">
+        <div id="progressFill" class="progressbar__fill"></div>
+      </div>
+
+      <button id="newReelBtn" class="btn btn--ghost" type="button">Load a different reel</button>
+
+    </section>
+
+  </main>
+
+  <div class="sprockets sprockets--bottom" aria-hidden="true"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>

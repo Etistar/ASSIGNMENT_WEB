@@ -1,0 +1,169 @@
+body {
+    background-color: #90C7E3;
+    background-image: linear-gradient(#FFFFFF, #90C7E3);
+    background-repeat: no-repeat;
+    color: #666666;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    border: 2px solid #3399CC;
+    border-collapse: collapse;
+}
+
+td, th {
+    padding: 0.5em;
+    border: 2px solid #3399CC;
+}
+
+td {
+    text-align: center;
+}
+
+.text {
+    text-align: left;
+}
+
+tr:nth-of-type(odd) {
+    background-color: #F5FAFC;
+}
+
+/* Wrapper */
+#wrapper {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FFFFFF;
+    min-width: 960px;
+    max-width: 2048px;
+    box-shadow: 3px 3px 3px #333333;
+}
+
+/* Header */
+header {
+    background-color: #000033;
+    color: #FFFFFF;
+    background-image: url("sunset.jpg");
+    background-position: right;
+    background-repeat: no-repeat;
+    height: 60px;
+    text-align: center;
+    padding-top: 15px;
+}
+
+/* Navigation */
+nav {
+    background-color: #FFFFFF;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+/* Headings */
+h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+h2 {
+    color: #000033;
+    font-family: Georgia, "Times New Roman", serif;
+    text-shadow: 1px 1px #CCCCCC;
+}
+
+h3 {
+    color: #000033;
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+.resort {
+    color: #5C7FA3;
+    font-weight: bold;
+}
+
+ul {
+    list-style-image: url("marker.gif");
+}
+
+/* Main */
+main {
+    display: block;
+    padding-top: 1px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+footer {
+    font-size: 75%;
+    padding: 20px;
+}
+
+#contact {
+    font-size: 90%;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+/* Hero images */
+#homehero {
+    height: 300px;
+    background-image: url("coast.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#yurthero {
+    height: 300px;
+    background-image: url("yurt.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#trailhero {
+    height: 300px;
+    background-image: url("trail.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+
+label {
+    float: left;
+    display: block;
+    text-align: right;
+    width: 120px;
+    padding-right: 20px; /* "Appropriate" padding to space label from input */
+}
+
+
+input, textarea {
+    display: block;
+    margin-bottom: 20px;
+}
+
+
+input[type="submit"] {
+    margin-left: 130px;
+}
+
+@media (max-width: 37.5em) {
+    
+    label { 
+        float: none; 
+        text-align: left; 
+        width: auto; /* Ensures the label spans the width needed */
+    }
+
+    input[type="submit"] { 
+        margin-left: 0; 
+    }
+}

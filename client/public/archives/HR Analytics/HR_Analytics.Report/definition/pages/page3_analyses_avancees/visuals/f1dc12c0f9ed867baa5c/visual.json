@@ -1,0 +1,107 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.9.0/schema.json",
+  "name": "f1dc12c0f9ed867baa5c",
+  "position": {
+    "x": 0,
+    "y": 314.23775942645608,
+    "z": 11000,
+    "height": 201.7159416405635,
+    "width": 666.89760297492421,
+    "tabOrder": 11000
+  },
+  "visual": {
+    "visualType": "donutChart",
+    "query": {
+      "queryState": {
+        "Category": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "HR_Analytics"
+                    }
+                  },
+                  "Property": "AgeGroup"
+                }
+              },
+              "queryRef": "HR_Analytics.AgeGroup",
+              "nativeQueryRef": "AgeGroup",
+              "active": true
+            }
+          ]
+        },
+        "Y": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "HR_Analytics"
+                    }
+                  },
+                  "Property": "Nombre_Employés"
+                }
+              },
+              "queryRef": "HR_Analytics.Nombre_Employés",
+              "nativeQueryRef": "Nombre_Employés"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "HR_Analytics"
+                  }
+                },
+                "Property": "AgeGroup"
+              }
+            },
+            "direction": "Ascending"
+          }
+        ],
+        "isDefaultSort": true
+      }
+    },
+    "drillFilterOtherVisuals": true
+  },
+  "filterConfig": {
+    "filters": [
+      {
+        "name": "9fdd90c5663029774aff",
+        "field": {
+          "Column": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "HR_Analytics"
+              }
+            },
+            "Property": "AgeGroup"
+          }
+        },
+        "type": "Categorical"
+      },
+      {
+        "name": "7e856245aa9848d3b6a2",
+        "field": {
+          "Measure": {
+            "Expression": {
+              "SourceRef": {
+                "Entity": "HR_Analytics"
+              }
+            },
+            "Property": "Nombre_Employés"
+          }
+        },
+        "type": "Advanced"
+      }
+    ]
+  }
+}

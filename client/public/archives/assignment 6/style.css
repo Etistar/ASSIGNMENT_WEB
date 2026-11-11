@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #e8e8e8;
+    text-align: center;
+}
+
+#gameContainer {
+    display: inline-block;
+    border: 2px solid #333;
+    background: #fff;
+    padding: 10px;
+}
+
+#hud {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+#hud h1 {
+    font-size: 20px;
+    margin: 0;
+}
+
+#score {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+button {
+    padding: 6px 12px;
+    margin-left: 6px;
+    cursor: pointer;
+    border: 1px solid #333;
+    background: #f5f5f5;
+    border-radius: 4px;
+}
+
+button:hover {
+    background: #ddd;
+}
+
+#gameCanvas {
+    background: #4c7a2c; /* fond vert type "feuille", dessine directement en canvas */
+    display: block;
+    cursor: crosshair;
+}

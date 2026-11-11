@@ -1,0 +1,493 @@
+/*    
+      Author: Etienne ZONON
+      Date:   26/05/2026
+      Student_ID : 301559049
+ */
+
+
+/* ==========================================================================
+   1. GLOBAL STYLES & ACCENTS
+   ========================================================================== */
+
+/* Warm, modern font stack and cohesive light-beige background layout */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, Arial, sans-serif;
+  background-color: #fdfaf6;
+  color: #333333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Base style layout elements */
+section {
+  padding: 20px;
+}
+
+/* ==========================================================================
+   2. HERO BANNER & MAIN NAVIGATION BAR
+   ========================================================================== */
+
+/* Main hero container holding the decorative food banner image */
+
+/* Le conteneur principal sert de point de référence */
+.banner-bg {
+    position: relative; /* Indispensable pour positionner les éléments à l'intérieur */
+    background-image: url('images/restaurant.PNG'); /* Votre image de fond actuelle */
+    background-size: cover;
+    background-position: center;
+    height: 350px; /* Ajustez la hauteur selon votre image */
+    margin: 0;
+    padding: 0;
+}
+
+/* Semi-transparent layout overlay aligning elements vertically inside the hero block */
+.header-overlay {
+  background-color: rgba(255, 255, 255, 0.15);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto; 
+}
+
+
+
+/* Branding Title Header elements */
+.banner-bg h1 {
+  color: #222222;
+  font-size: 2.2rem;
+  margin-top: 40px;
+  margin-bottom: 0;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.subtitle {
+  color: #555555;
+  font-size: 1.1rem;
+  margin-top: 5px;
+  font-style: italic;
+  text-align: center;
+}
+
+/* Horizontal navigation bar configuration nestled at the bottom of the banner */
+.main-nav {
+  background-color: rgba(255, 255, 255, 0.9);
+  width: 100%;
+  max-width: 900px;
+  text-align: center;
+  padding: 8px 0;
+  border-radius: 6px 6px 0 0;
+  box-shadow: 0 -2px 10px rgba(0,0,0,0.05);
+}
+
+/* Navigation Links & Dropdown Action buttons styling rules */
+.main-nav a, .dropbtn {
+  color: #444444;
+  text-decoration: none;
+  padding: 10px 16px;
+  font-weight: bold;
+  display: inline-block;
+  background: none;
+  border: none;
+  font-size: 0.9rem;
+  font-family: inherit;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+/* Changement de couleur au survol de la souris (Hover) */
+nav ul li a:hover {
+    color: #e2cfb0; /* Le texte devient vert au survol */
+}
+
+
+
+/* REND LE TEXTE VERT uniquement sur l'onglet de la page active */
+nav ul li a.active {
+    color: #e2cfb0 !important; /* Force la couleur verte sur l'onglet actuel */
+}
+
+/* Theme accent hover state change */
+.main-nav a:hover, .dropbtn:hover {
+  color: #e2cfb0;
+}
+
+/* Interactive drop-down positioning layout */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Floating submenu list layer setup */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  min-width: 150px;
+  box-shadow: 0px 8px 16px rgba(0,0,0,0.1);
+  z-index: 10;
+  bottom: 100%; /* Opens upwards to overlay neatly over the food picture banner area */
+}
+
+/* Individual list entries within the drop down elements layout block */
+.dropdown-content a {
+  display: block;
+  text-align: left;
+  padding: 10px 15px;
+}
+
+/* Displays dropdown layer on standard mouse hover actions */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* ==========================================================================
+   3. HOME PAGE COMPONENTS
+   ========================================================================== */
+
+/* Global container wrapping informational page layout elements */
+.home-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Gray styling welcome alert box layout component */
+.welcome-box {
+  background-color: #e9ecef;
+  padding: 20px;
+  border-radius: 6px;
+  margin-bottom: 40px;
+  line-height: 1.6;
+}
+
+.welcome-box h3 {
+  margin-top: 0;
+  font-size: 1.2rem;
+  color: #222222;
+}
+
+/* Adaptive flexible wrapper for text info columns and layout pictures */
+.hero-content {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  margin-bottom: 50px;
+  flex-wrap: wrap;
+}
+
+/* Uniform layout configurations for illustrative menu banner graphics */
+.restaurant-img {
+  flex: 1 1 350px;
+  max-width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.mission-box {
+  flex: 1 1 350px;
+}
+
+.mission-box h2 {
+  color: #d9c9ad;
+  margin-top: 0;
+}
+
+.mission-box p {
+  line-height: 1.6;
+  color: #555555;
+}
+
+/* User testimonial reviews module layouts */
+.reviews-section {
+  border-top: 1px solid #eeeeee;
+  padding-top: 40px;
+}
+
+.reviews-section h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* Adaptive card grid column arrays for comments section */
+.reviews-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+}
+
+/* Custom left-accent bordered quotation containers */
+.review-card {
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  padding: 20px;
+  border-left: 4px solid #d9c9ad;
+}
+
+.review-text {
+  font-style: italic;
+  line-height: 1.5;
+  color: #444444;
+  margin-top: 0;
+}
+
+.review-author {
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: #777777;
+  text-align: right;
+  margin-bottom: 0;
+}
+
+/* ==========================================================================
+   4. MENU LIST DISPLAY GRID MODULE
+   ========================================================================== */
+
+/* 5-Column alignment container structure for presenting dishes */
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Individual grid frame box modules displaying food options */
+.menu-item {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 15px;
+  text-align: center;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  box-sizing: border-box;
+}
+
+/* Responsive grid thumbnail adjustment parameters */
+.menu-item img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+  margin-bottom: 12px;
+}
+
+.menu-item h3 {
+  font-size: 1.1rem;
+  margin: 5px 0;
+  color: #333333;
+}
+
+.menu-item .calories {
+  font-size: 0.9rem;
+  color: #777777;
+  margin: 2px 0 8px 0;
+}
+
+/* Text descriptions box holding content descriptions with uniform floor heights */
+.menu-item .description {
+  font-size: 0.82rem;
+  color: #555555;
+  line-height: 1.3;
+  margin: 0 0 15px 0;
+  min-height: 55px; 
+}
+
+.menu-item .price {
+  font-size: 1.1rem;
+  color: #222222;
+  margin-top: auto;
+}
+
+/* ==========================================================================
+   5. ESTIMATE / ORDER TABLE FORM ELEMENTS
+   ========================================================================== */
+
+/* Outlined center aligning structural table frame box wrapper */
+.menu-table-container {
+  max-width: 900px;
+  margin: 40px auto;
+  border: 1px solid #dcdcdc;
+  border-radius: 4px;
+  overflow: hidden;
+  background-color: #ffffff;
+}
+
+.menu-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+/* Custom theme colored form table header columns */
+.menu-table thead tr {
+  background-color: #f4e1c1; 
+  color: #333333;
+}
+
+.menu-table th {
+  padding: 12px 15px;
+  font-size: 0.95rem;
+  font-weight: bold;
+}
+
+/* Fixed spacing scale grid column width arrays */
+.col-select {
+  width: 10%;
+  border-right: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.col-item {
+  width: 90%;
+}
+
+.menu-table td {
+  padding: 12px 15px;
+  border-bottom: 1px solid #e0e0e0;
+  color: #333333;
+  font-size: 0.95rem;
+}
+
+/* Alternating rows pattern style setup */
+.menu-table tbody tr:nth-child(even) {
+  background-color: #f9f9f9; 
+}
+
+.menu-table tbody tr:nth-child(odd) {
+  background-color: #ffffff; 
+}
+
+.menu-table td input[type="checkbox"] {
+  cursor: pointer;
+  width: 14px;
+  height: 14px;
+}
+
+.menu-table td:first-child {
+  border-right: 1px solid #e0e0e0;
+  text-align: center;
+}
+
+/* Form total summary display layout stripe box elements */
+.table-footer {
+  background-color: #f5f5f5;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  border-top: 1px solid #dcdcdc;
+}
+
+/* Cohesive custom brand rounded submission control element links styling setup */
+.submit-btn {
+  background-color: #f4e1c1;
+  color: #333333;
+  border: 1px solid #cbd5e1;
+  padding: 10px 24px;
+  font-size: 0.95rem;
+  border-radius: 20px; 
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.2s, transform 0.1s;
+}
+
+/* Hover dim action change */
+.submit-btn:hover {
+  background-color: #e2cfb0;
+}
+
+.total-display {
+  font-size: 1rem;
+  color: #333333;
+}
+
+.checkout-label {
+  max-width: 900px;
+  margin: 10px auto 30px auto;
+  font-size: 0.85rem;
+  font-weight: bold;
+  color: #333333;
+  text-transform: uppercase;
+}
+
+.subtitle {
+    font-style: italic;
+    color: #555;
+    margin-bottom: 20px;
+    margin-top: 5px;       /* Rapproche légèrement le sous-titre du titre principal */
+    
+    /* MODIFICATIONS : */
+    font-size: 1.6em;      /* Augmente considérablement la taille de la police */
+    text-align: right;     /* Aligne le texte complètement à droite */
+    padding-right: 50px;   /* Ajoute une marge de sécurité pour ne pas coller au bord de l'écran */
+}
+
+
+
+/* ==========================================================================
+   6. GLOBAL SITE FOOTER
+   ========================================================================== */
+footer {
+  background-color: #222222;
+  color: #ffffff;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 50px;
+  font-size: 0.9rem;
+}
+
+
+
+
+/* Superposition sur toute la largeur et hauteur de la bannière */
+.header-overlay {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+/* Le titre principal reste parfaitement centré en haut */
+.header-overlay h1 {
+    text-align: center;
+    margin: 0;
+    padding-top: 40px; /* Espace depuis le haut de la bannière */
+    font-size: 2.5em;
+    color: #f4e1c1; /* Ajustez la couleur si nécessaire (ex: #fff pour blanc) */
+}
+h3 {
+    color: #d9c9ad !important; /* Force le beige */
+}
+
+h2 {
+    color: #d9c9ad !important; /* Force le beige */
+}
+
+
+/* SOLUTION : Le sous-titre est envoyé de force tout en bas à droite */
+.subtitle {
+    position: absolute; /* S'extrait du flux et se place par rapport à la bannière */
+    bottom: 90px;       /* Place le texte juste au-dessus de la barre de navigation blanche */
+    right: 30px;        /* Colle le texte complètement sur le bord droit */
+    margin: 0;
+    
+    /* Style de la police demandé */
+    font-size: 2.2em;   /* Très gros */
+    font-style: italic;
+    font-weight: bold;
+    color: #333;        /* Si le texte est dur à lire sur les assiettes, passez-le en #ffffff (blanc) */
+    text-shadow: 1px 1px 3px rgba(255,255,255,0.8); /* Ajoute un contour léger pour améliorer la lisibilité */
+}
+/* Classe pour l'onglet de la page active (Cliqué) */
+nav.main-nav a.active {
+    color: #e2cfb0;
+    border-bottom: 2px solid #e2cfb0;
+}

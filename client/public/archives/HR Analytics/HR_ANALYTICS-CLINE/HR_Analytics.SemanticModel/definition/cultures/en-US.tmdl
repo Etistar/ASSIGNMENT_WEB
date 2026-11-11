@@ -1,0 +1,6771 @@
+cultureInfo en-US
+
+	linguisticMetadata =
+			{
+			  "Version": "4.1.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "HR_analytics": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "HR_Analytics"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "HR analytics": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "HR_Analytics": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "analytics": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "HR_analytics.emp_ID": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "HR_Analytics",
+			          "ConceptualProperty": "EmpID"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "emp ID": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "EmpID": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "emp identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "emp identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "emp identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "emp credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "HR_analytics.age": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "HR_Analytics",
+			          "ConceptualProperty": "Age"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "age": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "oldness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "stage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "phase": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "era": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "epoch": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "HR_analytics.age_group": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "HR_Analytics",
+			          "ConceptualProperty": "AgeGroup"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "age group": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "AgeGroup": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "age category": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "age organization": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "age bracket": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "age class": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "age crew": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "age team": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "HR_analytics.attrition": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "HR_Analytics",
+			          "ConceptualProperty": "Attrition"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "attrition": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "abrasion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "erosion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "Filtre Attrition": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "HR_analytics.business_travel": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "HR_Analytics",
+			          "ConceptualProperty": "BusinessTravel"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "business travel": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "BusinessTravel": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "travel": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "biz travel": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "industry travel": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "commerce travel": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "corporation travel": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "employer travel": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "enterprise travel": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "establishment travel": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "commercial travel": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "corporate travel": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "firm travel": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "HR_analytics.daily_rate": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "HR_Analytics",
+			          "ConceptualProperty": "DailyRate"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "daily rate": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "DailyRate": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "rate": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "daily degree": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "daily frequency": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "daily percentage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "daily ratio": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "daily quotient": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "degree": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "frequency": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "ratio": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "quotient": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "daily amount": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "HR_analytics.department": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "HR_Analytics",
+			          "ConceptualProperty": "Department"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "department": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "subdivision": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "division": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "unit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "section": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "branch": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "sector": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "responsibility": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "specialty": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "realm": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "area": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "HR_analytics.distance_from_home": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "HR_Analytics",
+			          "ConceptualProperty": "DistanceFromHome"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "distance from home": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "DistanceFromHome": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "distance": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "coldness from home": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "aloofness from home": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "detachment from home": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "remoteness from home": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "reserve from home": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "coldness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "aloofness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "detachment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "remoteness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "expanse from home": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.482
+			          }
+			        }
+			      ]
+			    },
+			    "HR_analytics.education": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "HR_Analytics",
+			          "ConceptualProperty": "Education"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "education": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "instruction": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "edification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "tutelage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "teaching": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "schooling": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "tutoring": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "learning": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "training": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "culture": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "HR_analytics.education_field": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "HR_Analytics",
+			          "ConceptualProperty": "EducationField"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "education field": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "EducationField": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "field": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "education arena": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "arena": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "education turf": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "education ground": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "education pitch": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "education park": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "turf": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "ground": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "pitch": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "park": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "HR_analytics.employee_count": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "HR_Analytics",
+			          "ConceptualProperty": "EmployeeCount"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "employee count": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "EmployeeCount": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "employee amount": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "HR_analytics.employee_number": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "HR_Analytics",
+			          "ConceptualProperty": "EmployeeNumber"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "employee number": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "EmployeeNumber": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "employee no": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "HR_analytics.environment_satisfaction": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "HR_Analytics",
+			          "ConceptualProperty": "EnvironmentSatisfaction"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "environment satisfaction": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "EnvironmentSatisfaction": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "satisfaction": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "environment gratification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "environment consummation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "environment fulfilment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "environment fulfillment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "gratification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "consummation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "fulfilment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "fulfillment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "environment approval": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "environment happiness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        }
+			      ]
+			    },
+			    "HR_analytics.gender": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "HR_Analytics",
+			          "ConceptualProperty": "Gender"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "gender": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "sexuality": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "sex": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "HR_analytics.hourly_rate": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "HR_Analytics",
+			          "ConceptualProperty": "HourlyRate"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "hourly rate": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "HourlyRate": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "rate": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "hourly degree": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "hourly frequency": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "hourly percentage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "hourly ratio": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "hourly quotient": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "degree": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "frequency": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "ratio": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "quotient": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "hourly amount": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "HR_analytics.job_involvement": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "HR_Analytics",
+			          "ConceptualProperty": "JobInvolvement"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "job involvement": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "JobInvolvement": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "involvement": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "job participation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "job connection": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "job contribution": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "job engrossment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "job immersion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "job envelopment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "job association": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "participation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "connection": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "contribution": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        }
+			      ]
+			    },
+			    "HR_analytics.job_level": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "HR_Analytics",
+			          "ConceptualProperty": "JobLevel"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "job level": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "JobLevel": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "level": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "job quantity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "job threshold": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "threshold": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "job amount": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "job grade": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "job point": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "job rank": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "job tier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "grade": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "point": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "HR_analytics.job_role": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "HR_Analytics",
+			          "ConceptualProperty": "JobRole"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "job role": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "JobRole": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "role": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "job person": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "job hero": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "job heroine": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "job protagonist": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "person": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "hero": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "heroine": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "protagonist": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "job part": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "job character": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "HR_analytics.job_satisfaction": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "HR_Analytics",
+			          "ConceptualProperty": "JobSatisfaction"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "job satisfaction": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "JobSatisfaction": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "satisfaction": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "job gratification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "job consummation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "job fulfilment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "job fulfillment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "gratification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "consummation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "fulfilment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "fulfillment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "job approval": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "job happiness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        }
+			      ]
+			    },
+			    "HR_analytics.marital_status": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "HR_Analytics",
+			          "ConceptualProperty": "MaritalStatus"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "marital status": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "MaritalStatus": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "status": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "marital category": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "marital importance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "marital prestige": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "marital prominence": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "category": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "importance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "prestige": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "prominence": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "marital condition": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "marital class": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "HR_analytics.monthly_income": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "HR_Analytics",
+			          "ConceptualProperty": "MonthlyIncome"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "monthly income": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "MonthlyIncome": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "income": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "monthly revenue": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "monthly salary": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "revenue": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "salary": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "monthly pay": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "pay": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "HR_analytics.salary_slab": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "HR_Analytics",
+			          "ConceptualProperty": "SalarySlab"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "salary slab": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "SalarySlab": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "slab": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "salary hunk": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "hunk": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "salary lump": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "salary chunk": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "salary block": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "salary piece": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "salary portion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "salary wedge": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "lump": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "chunk": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "Tranche salariale": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "HR_analytics.monthly_rate": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "HR_Analytics",
+			          "ConceptualProperty": "MonthlyRate"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "monthly rate": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "MonthlyRate": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "rate": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "monthly degree": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "monthly frequency": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "monthly percentage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "monthly ratio": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "monthly quotient": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "degree": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "frequency": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "ratio": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "quotient": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "monthly amount": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "HR_analytics.num_company_worked": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "HR_Analytics",
+			          "ConceptualProperty": "NumCompaniesWorked"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "num company worked": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "NumCompaniesWorked": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "num co worked": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "num corp worked": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "num corporation worked": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "num corps worked": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "num employer worked": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "num enterprise worked": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "num business worked": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "num group worked": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "num conglomerate worked": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "num co inc worked": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.623
+			          }
+			        }
+			      ]
+			    },
+			    "HR_analytics.over_18": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "HR_Analytics",
+			          "ConceptualProperty": "Over18"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "over 18": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Over18": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "HR_analytics.over_time": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "HR_Analytics",
+			          "ConceptualProperty": "OverTime"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "over time": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "OverTime": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "over duration": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "over interval": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "over moment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "over period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "over timetable": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "time": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "HR_analytics.percent_salary_hike": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "HR_Analytics",
+			          "ConceptualProperty": "PercentSalaryHike"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "percent salary hike": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "PercentSalaryHike": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "hike": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "salary hike": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "percent salary trek": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "percent salary ramble": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "percent salary walk": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "percent salary climb": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "percent salary scramble": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "percent salary trudge": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "percent salary tramp": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "percent salary slog": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "salary trek": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "salary ramble": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "HR_analytics.performance_rating": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "HR_Analytics",
+			          "ConceptualProperty": "PerformanceRating"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "performance rating": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "PerformanceRating": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "rating": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "performance assessment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "performance evaluation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "assessment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "evaluation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "performance score": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "performance grade": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "performance ranking": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "performance mark": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "score": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "grade": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "HR_analytics.relationship_satisfaction": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "HR_Analytics",
+			          "ConceptualProperty": "RelationshipSatisfaction"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "relationship satisfaction": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "RelationshipSatisfaction": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "satisfaction": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "relationship gratification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "relationship consummation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "relationship fulfilment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "relationship fulfillment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "gratification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "consummation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "fulfilment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "fulfillment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "relationship approval": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "relationship happiness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        }
+			      ]
+			    },
+			    "HR_analytics.standard_hour": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "HR_Analytics",
+			          "ConceptualProperty": "StandardHours"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "standard hour": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "StandardHours": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "standard period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "standard era": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "standard epoch": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "standard age": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        }
+			      ]
+			    },
+			    "HR_analytics.stock_option_level": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "HR_Analytics",
+			          "ConceptualProperty": "StockOptionLevel"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "stock option level": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "StockOptionLevel": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "level": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "option level": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "stock option quantity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "stock option threshold": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "option quantity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "option threshold": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "stock option amount": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "stock option grade": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "stock option point": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "stock option rank": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "stock option tier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "threshold": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        }
+			      ]
+			    },
+			    "HR_analytics.total_working_year": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "HR_Analytics",
+			          "ConceptualProperty": "TotalWorkingYears"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total working year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "TotalWorkingYears": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "working year": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "total working yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "working yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "aggregate working year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "overall working year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "HR_analytics.training_times_last_year": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "HR_Analytics",
+			          "ConceptualProperty": "TrainingTimesLastYear"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "training times last year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "training time last year": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "TrainingTimesLastYear": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "last year": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "times last year": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "time last year": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.7566
+			          }
+			        },
+			        {
+			          "time last yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "last yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "time end year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "time final year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "time closing year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "time concluding year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "time finishing year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "time former year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "time latest year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "time latter year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        }
+			      ]
+			    },
+			    "HR_analytics.work_life_balance": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "HR_Analytics",
+			          "ConceptualProperty": "WorkLifeBalance"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "work life balance": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "WorkLifeBalance": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "balance": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "life balance": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "work life equilibrium": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "work life stability": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "work life steadiness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "life equilibrium": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "life stability": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "life steadiness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "work life poise": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "equilibrium": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "stability": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "steadiness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        }
+			      ]
+			    },
+			    "HR_analytics.year_at_company": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "HR_Analytics",
+			          "ConceptualProperty": "YearsAtCompany"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "year at company": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "YearsAtCompany": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "yr at company": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "year at co": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "year at corp": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "year at corporation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "year at corps": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "year at employer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "year at enterprise": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "year at business": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "year at group": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "year at conglomerate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "HR_analytics.year_in_current_role": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "HR_Analytics",
+			          "ConceptualProperty": "YearsInCurrentRole"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "year in current role": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "YearsInCurrentRole": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "role": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "current role": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "in current role": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "yr in current role": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.771
+			          }
+			        },
+			        {
+			          "in latest role": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "in contemporary role": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "in present role": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.739
+			          }
+			        },
+			        {
+			          "in present day role": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.604
+			          }
+			        },
+			        {
+			          "year in latest role": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "year in contemporary role": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "year in present role": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "latest role": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "contemporary role": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "HR_analytics.year_since_last_promotion": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "HR_Analytics",
+			          "ConceptualProperty": "YearsSinceLastPromotion"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "year since last promotion": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "YearsSinceLastPromotion": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "yr since last promotion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.771
+			          }
+			        },
+			        {
+			          "year since end promotion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "year since final promotion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "year since closing promotion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "year since concluding promotion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "year since finishing promotion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "year since former promotion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "year since latest promotion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "year since latter promotion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "year since past promotion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        }
+			      ]
+			    },
+			    "HR_analytics.year_with_curr_manager": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "HR_Analytics",
+			          "ConceptualProperty": "YearsWithCurrManager"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "year with curr manager": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "YearsWithCurrManager": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "yr with curr manager": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.771
+			          }
+			        }
+			      ]
+			    },
+			    "HR_analytics.nombre_employés": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "HR_Analytics",
+			          "ConceptualProperty": "Nombre_Employés"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "nombre employés": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Nombre_Employés": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "HR_analytics.nb_départs": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "HR_Analytics",
+			          "ConceptualProperty": "Nb_Départs"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "nb départs": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Nb_Départs": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "HR_analytics.taux_rotation_pct": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "HR_Analytics",
+			          "ConceptualProperty": "Taux_Rotation_Pct"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "taux rotation pct": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Taux_Rotation_Pct": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "Taux_Rotation": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "HR_analytics.nb_heures_supplémentaires": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "HR_Analytics",
+			          "ConceptualProperty": "Nb_Heures_Supplémentaires"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "nb heures supplémentaires": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Nb_Heures_Supplémentaires": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "HR_analytics.taux_absentéisme_pct": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "HR_Analytics",
+			          "ConceptualProperty": "Taux_Absentéisme_Pct"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "taux absentéisme pct": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Taux_Absentéisme_Pct": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "HR_analytics.ancienneté_moyenne_années": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "HR_Analytics",
+			          "ConceptualProperty": "Ancienneté_Moyenne_Années"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ancienneté moyenne années": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Ancienneté_Moyenne_Années": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "HR_analytics.expérience_moyenne_années": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "HR_Analytics",
+			          "ConceptualProperty": "Expérience_Moyenne_Années"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "expérience moyenne années": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Expérience_Moyenne_Années": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "HR_analytics.distance_moyenne_domicile": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "HR_Analytics",
+			          "ConceptualProperty": "Distance_Moyenne_Domicile"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "distance moyenne domicile": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Distance_Moyenne_Domicile": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "distance moyenne residence": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "distance moyenne apartment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "distance moyenne home": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "distance moyenne flat": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "distance moyenne house": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "distance moyenne dwelling": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "distance moyenne abode": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "distance moyenne address": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        }
+			      ]
+			    },
+			    "HR_analytics.satisfaction_environnement_moy": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "HR_Analytics",
+			          "ConceptualProperty": "Satisfaction_Environnement_Moy"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "satisfaction environnement moy": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Satisfaction_Environnement_Moy": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "HR_analytics.satisfaction_travail_moy": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "HR_Analytics",
+			          "ConceptualProperty": "Satisfaction_Travail_Moy"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "satisfaction travail moy": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Satisfaction_Travail_Moy": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "moy": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "travail moy": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "HR_analytics.satisfaction_relations_moy": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "HR_Analytics",
+			          "ConceptualProperty": "Satisfaction_Relations_Moy"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "satisfaction relations moy": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Satisfaction_Relations_Moy": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "moy": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "relations moy": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "HR_analytics.équilibre_vie_travail_moy": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "HR_Analytics",
+			          "ConceptualProperty": "Équilibre_Vie_Travail_Moy"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "équilibre vie travail moy": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Équilibre_Vie_Travail_Moy": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "HR_analytics.implication_travail_moy": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "HR_Analytics",
+			          "ConceptualProperty": "Implication_Travail_Moy"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "implication travail moy": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Implication_Travail_Moy": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "moy": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "travail moy": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ]
+			    },
+			    "HR_analytics.performance_moyenne": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "HR_Analytics",
+			          "ConceptualProperty": "Performance_Moyenne"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "performance moyenne": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Performance_Moyenne": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "HR_analytics.score_satisfaction_global": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "HR_Analytics",
+			          "ConceptualProperty": "Score_Satisfaction_Global"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "score satisfaction global": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Score_Satisfaction_Global": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "score gratification global": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "score consummation global": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "score fulfilment global": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "score fulfillment global": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "score approval global": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.482
+			          }
+			        },
+			        {
+			          "score happiness global": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.482
+			          }
+			        },
+			        {
+			          "score contentment global": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.482
+			          }
+			        },
+			        {
+			          "score agreement global": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.482
+			          }
+			        },
+			        {
+			          "score enjoyment global": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.482
+			          }
+			        },
+			        {
+			          "score pleasure global": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.468
+			          }
+			        }
+			      ]
+			    },
+			    "HR_analytics.salaire_moyen_mensuel": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "HR_Analytics",
+			          "ConceptualProperty": "Salaire_Moyen_Mensuel"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "salaire moyen mensuel": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Salaire_Moyen_Mensuel": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "HR_analytics.masse_salariale_mensuelle": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "HR_Analytics",
+			          "ConceptualProperty": "Masse_Salariale_Mensuelle"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "masse salariale mensuelle": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Masse_Salariale_Mensuelle": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "HR_analytics.salaire_moyen_par_département": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "HR_Analytics",
+			          "ConceptualProperty": "Salaire_Moyen_Par_Département"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "salaire moyen par département": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Salaire_Moyen_Par_Département": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "HR_analytics.ancienneté_poste_actuel_moy": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "HR_Analytics",
+			          "ConceptualProperty": "Ancienneté_Poste_Actuel_Moy"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ancienneté poste actuel moy": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Ancienneté_Poste_Actuel_Moy": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "HR_analytics.ancienneté_manager_actuel_moy": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "HR_Analytics",
+			          "ConceptualProperty": "Ancienneté_Manager_Actuel_Moy"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ancienneté manager actuel moy": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Ancienneté_Manager_Actuel_Moy": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "HR_analytics.taux_promotion_pct": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "HR_Analytics",
+			          "ConceptualProperty": "Taux_Promotion_Pct"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "taux promotion pct": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Taux_Promotion_Pct": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "Taux_Promotion": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "HR_analytics.nb_promotions_cette_année": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "HR_Analytics",
+			          "ConceptualProperty": "Nb_Promotions_Cette_Année"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "nb promotions cette année": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Nb_Promotions_Cette_Année": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    }
+			  },
+			  "Relationships": {
+			    "HR_analytics_has_taux_promotion_pct": {
+			      "Binding": {
+			        "ConceptualEntity": "HR_Analytics"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "HR_analytics": {
+			          "Target": {
+			            "Entity": "HR_analytics"
+			          }
+			        },
+			        "HR_analytics.taux_promotion_pct": {
+			          "Target": {
+			            "Entity": "HR_analytics.taux_promotion_pct"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "HR_analytics"
+			            },
+			            "Object": {
+			              "Role": "HR_analytics.taux_promotion_pct"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "HR_analytics_have_taux_promotion_pct"
+			        }
+			      ]
+			    },
+			    "HR_analytics_has_ancienneté_manager_actuel_moy": {
+			      "Binding": {
+			        "ConceptualEntity": "HR_Analytics"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "HR_analytics": {
+			          "Target": {
+			            "Entity": "HR_analytics"
+			          }
+			        },
+			        "HR_analytics.ancienneté_manager_actuel_moy": {
+			          "Target": {
+			            "Entity": "HR_analytics.ancienneté_manager_actuel_moy"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "HR_analytics"
+			            },
+			            "Object": {
+			              "Role": "HR_analytics.ancienneté_manager_actuel_moy"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "HR_analytics_have_ancienneté_manager_actuel_moy"
+			        }
+			      ]
+			    },
+			    "HR_analytics_has_ancienneté_poste_actuel_moy": {
+			      "Binding": {
+			        "ConceptualEntity": "HR_Analytics"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "HR_analytics": {
+			          "Target": {
+			            "Entity": "HR_analytics"
+			          }
+			        },
+			        "HR_analytics.ancienneté_poste_actuel_moy": {
+			          "Target": {
+			            "Entity": "HR_analytics.ancienneté_poste_actuel_moy"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "HR_analytics"
+			            },
+			            "Object": {
+			              "Role": "HR_analytics.ancienneté_poste_actuel_moy"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "HR_analytics_have_ancienneté_poste_actuel_moy"
+			        }
+			      ]
+			    },
+			    "HR_analytics_has_salaire_moyen_par_département": {
+			      "Binding": {
+			        "ConceptualEntity": "HR_Analytics"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "HR_analytics": {
+			          "Target": {
+			            "Entity": "HR_analytics"
+			          }
+			        },
+			        "HR_analytics.salaire_moyen_par_département": {
+			          "Target": {
+			            "Entity": "HR_analytics.salaire_moyen_par_département"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "HR_analytics"
+			            },
+			            "Object": {
+			              "Role": "HR_analytics.salaire_moyen_par_département"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "HR_analytics_have_salaire_moyen_par_département"
+			        }
+			      ]
+			    },
+			    "HR_analytics_has_masse_salariale_mensuelle": {
+			      "Binding": {
+			        "ConceptualEntity": "HR_Analytics"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "HR_analytics": {
+			          "Target": {
+			            "Entity": "HR_analytics"
+			          }
+			        },
+			        "HR_analytics.masse_salariale_mensuelle": {
+			          "Target": {
+			            "Entity": "HR_analytics.masse_salariale_mensuelle"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "HR_analytics"
+			            },
+			            "Object": {
+			              "Role": "HR_analytics.masse_salariale_mensuelle"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "HR_analytics_have_masse_salariale_mensuelle"
+			        }
+			      ]
+			    },
+			    "HR_analytics_has_salaire_moyen_mensuel": {
+			      "Binding": {
+			        "ConceptualEntity": "HR_Analytics"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "HR_analytics": {
+			          "Target": {
+			            "Entity": "HR_analytics"
+			          }
+			        },
+			        "HR_analytics.salaire_moyen_mensuel": {
+			          "Target": {
+			            "Entity": "HR_analytics.salaire_moyen_mensuel"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "HR_analytics"
+			            },
+			            "Object": {
+			              "Role": "HR_analytics.salaire_moyen_mensuel"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "HR_analytics_have_salaire_moyen_mensuel"
+			        }
+			      ]
+			    },
+			    "HR_analytics_has_score_satisfaction_global": {
+			      "Binding": {
+			        "ConceptualEntity": "HR_Analytics"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "HR_analytics": {
+			          "Target": {
+			            "Entity": "HR_analytics"
+			          }
+			        },
+			        "HR_analytics.score_satisfaction_global": {
+			          "Target": {
+			            "Entity": "HR_analytics.score_satisfaction_global"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "HR_analytics"
+			            },
+			            "Object": {
+			              "Role": "HR_analytics.score_satisfaction_global"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "HR_analytics_have_score_satisfaction_global"
+			        }
+			      ]
+			    },
+			    "HR_analytics_has_performance_moyenne": {
+			      "Binding": {
+			        "ConceptualEntity": "HR_Analytics"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "HR_analytics": {
+			          "Target": {
+			            "Entity": "HR_analytics"
+			          }
+			        },
+			        "HR_analytics.performance_moyenne": {
+			          "Target": {
+			            "Entity": "HR_analytics.performance_moyenne"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "HR_analytics"
+			            },
+			            "Object": {
+			              "Role": "HR_analytics.performance_moyenne"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "HR_analytics_have_performance_moyenne"
+			        }
+			      ]
+			    },
+			    "HR_analytics_has_implication_travail_moy": {
+			      "Binding": {
+			        "ConceptualEntity": "HR_Analytics"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "HR_analytics": {
+			          "Target": {
+			            "Entity": "HR_analytics"
+			          }
+			        },
+			        "HR_analytics.implication_travail_moy": {
+			          "Target": {
+			            "Entity": "HR_analytics.implication_travail_moy"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "HR_analytics"
+			            },
+			            "Object": {
+			              "Role": "HR_analytics.implication_travail_moy"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "HR_analytics_have_implication_travail_moy"
+			        }
+			      ]
+			    },
+			    "HR_analytics_has_équilibre_vie_travail_moy": {
+			      "Binding": {
+			        "ConceptualEntity": "HR_Analytics"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "HR_analytics": {
+			          "Target": {
+			            "Entity": "HR_analytics"
+			          }
+			        },
+			        "HR_analytics.équilibre_vie_travail_moy": {
+			          "Target": {
+			            "Entity": "HR_analytics.équilibre_vie_travail_moy"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "HR_analytics"
+			            },
+			            "Object": {
+			              "Role": "HR_analytics.équilibre_vie_travail_moy"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "HR_analytics_have_équilibre_vie_travail_moy"
+			        }
+			      ]
+			    },
+			    "HR_analytics_has_satisfaction_relations_moy": {
+			      "Binding": {
+			        "ConceptualEntity": "HR_Analytics"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "HR_analytics": {
+			          "Target": {
+			            "Entity": "HR_analytics"
+			          }
+			        },
+			        "HR_analytics.satisfaction_relations_moy": {
+			          "Target": {
+			            "Entity": "HR_analytics.satisfaction_relations_moy"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "HR_analytics"
+			            },
+			            "Object": {
+			              "Role": "HR_analytics.satisfaction_relations_moy"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "HR_analytics_have_satisfaction_relations_moy"
+			        }
+			      ]
+			    },
+			    "HR_analytics_has_satisfaction_travail_moy": {
+			      "Binding": {
+			        "ConceptualEntity": "HR_Analytics"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "HR_analytics": {
+			          "Target": {
+			            "Entity": "HR_analytics"
+			          }
+			        },
+			        "HR_analytics.satisfaction_travail_moy": {
+			          "Target": {
+			            "Entity": "HR_analytics.satisfaction_travail_moy"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "HR_analytics"
+			            },
+			            "Object": {
+			              "Role": "HR_analytics.satisfaction_travail_moy"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "HR_analytics_have_satisfaction_travail_moy"
+			        }
+			      ]
+			    },
+			    "HR_analytics_has_satisfaction_environnement_moy": {
+			      "Binding": {
+			        "ConceptualEntity": "HR_Analytics"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "HR_analytics": {
+			          "Target": {
+			            "Entity": "HR_analytics"
+			          }
+			        },
+			        "HR_analytics.satisfaction_environnement_moy": {
+			          "Target": {
+			            "Entity": "HR_analytics.satisfaction_environnement_moy"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "HR_analytics"
+			            },
+			            "Object": {
+			              "Role": "HR_analytics.satisfaction_environnement_moy"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "HR_analytics_have_satisfaction_environnement_moy"
+			        }
+			      ]
+			    },
+			    "HR_analytics_has_distance_moyenne_domicile": {
+			      "Binding": {
+			        "ConceptualEntity": "HR_Analytics"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "HR_analytics": {
+			          "Target": {
+			            "Entity": "HR_analytics"
+			          }
+			        },
+			        "HR_analytics.distance_moyenne_domicile": {
+			          "Target": {
+			            "Entity": "HR_analytics.distance_moyenne_domicile"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "HR_analytics"
+			            },
+			            "Object": {
+			              "Role": "HR_analytics.distance_moyenne_domicile"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "HR_analytics_have_distance_moyenne_domicile"
+			        }
+			      ]
+			    },
+			    "HR_analytics_has_expérience_moyenne_années": {
+			      "Binding": {
+			        "ConceptualEntity": "HR_Analytics"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "HR_analytics": {
+			          "Target": {
+			            "Entity": "HR_analytics"
+			          }
+			        },
+			        "HR_analytics.expérience_moyenne_années": {
+			          "Target": {
+			            "Entity": "HR_analytics.expérience_moyenne_années"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "HR_analytics"
+			            },
+			            "Object": {
+			              "Role": "HR_analytics.expérience_moyenne_années"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "HR_analytics_have_expérience_moyenne_années"
+			        }
+			      ]
+			    },
+			    "HR_analytics_has_ancienneté_moyenne_années": {
+			      "Binding": {
+			        "ConceptualEntity": "HR_Analytics"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "HR_analytics": {
+			          "Target": {
+			            "Entity": "HR_analytics"
+			          }
+			        },
+			        "HR_analytics.ancienneté_moyenne_années": {
+			          "Target": {
+			            "Entity": "HR_analytics.ancienneté_moyenne_années"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "HR_analytics"
+			            },
+			            "Object": {
+			              "Role": "HR_analytics.ancienneté_moyenne_années"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "HR_analytics_have_ancienneté_moyenne_années"
+			        }
+			      ]
+			    },
+			    "HR_analytics_has_taux_absentéisme_pct": {
+			      "Binding": {
+			        "ConceptualEntity": "HR_Analytics"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "HR_analytics": {
+			          "Target": {
+			            "Entity": "HR_analytics"
+			          }
+			        },
+			        "HR_analytics.taux_absentéisme_pct": {
+			          "Target": {
+			            "Entity": "HR_analytics.taux_absentéisme_pct"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "HR_analytics"
+			            },
+			            "Object": {
+			              "Role": "HR_analytics.taux_absentéisme_pct"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "HR_analytics_have_taux_absentéisme_pct"
+			        }
+			      ]
+			    },
+			    "HR_analytics_has_nb_heures_supplémentaires": {
+			      "Binding": {
+			        "ConceptualEntity": "HR_Analytics"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "HR_analytics": {
+			          "Target": {
+			            "Entity": "HR_analytics"
+			          }
+			        },
+			        "HR_analytics.nb_heures_supplémentaires": {
+			          "Target": {
+			            "Entity": "HR_analytics.nb_heures_supplémentaires"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "HR_analytics"
+			            },
+			            "Object": {
+			              "Role": "HR_analytics.nb_heures_supplémentaires"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "HR_analytics_have_nb_heures_supplémentaires"
+			        }
+			      ]
+			    },
+			    "HR_analytics_has_taux_rotation_pct": {
+			      "Binding": {
+			        "ConceptualEntity": "HR_Analytics"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "HR_analytics": {
+			          "Target": {
+			            "Entity": "HR_analytics"
+			          }
+			        },
+			        "HR_analytics.taux_rotation_pct": {
+			          "Target": {
+			            "Entity": "HR_analytics.taux_rotation_pct"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "HR_analytics"
+			            },
+			            "Object": {
+			              "Role": "HR_analytics.taux_rotation_pct"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "HR_analytics_have_taux_rotation_pct"
+			        }
+			      ]
+			    },
+			    "HR_analytics_has_nb_départs": {
+			      "Binding": {
+			        "ConceptualEntity": "HR_Analytics"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "HR_analytics": {
+			          "Target": {
+			            "Entity": "HR_analytics"
+			          }
+			        },
+			        "HR_analytics.nb_départs": {
+			          "Target": {
+			            "Entity": "HR_analytics.nb_départs"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "HR_analytics"
+			            },
+			            "Object": {
+			              "Role": "HR_analytics.nb_départs"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "HR_analytics_have_nb_départs"
+			        }
+			      ]
+			    },
+			    "HR_analytics_has_nombre_employés": {
+			      "Binding": {
+			        "ConceptualEntity": "HR_Analytics"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "HR_analytics": {
+			          "Target": {
+			            "Entity": "HR_analytics"
+			          }
+			        },
+			        "HR_analytics.nombre_employés": {
+			          "Target": {
+			            "Entity": "HR_analytics.nombre_employés"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "HR_analytics"
+			            },
+			            "Object": {
+			              "Role": "HR_analytics.nombre_employés"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "HR_analytics_have_nombre_employés"
+			        }
+			      ]
+			    },
+			    "HR_analytics_has_year_with_curr_manager": {
+			      "Binding": {
+			        "ConceptualEntity": "HR_Analytics"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "HR_analytics": {
+			          "Target": {
+			            "Entity": "HR_analytics"
+			          }
+			        },
+			        "HR_analytics.year_with_curr_manager": {
+			          "Target": {
+			            "Entity": "HR_analytics.year_with_curr_manager"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "HR_analytics"
+			            },
+			            "Object": {
+			              "Role": "HR_analytics.year_with_curr_manager"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "HR_analytics_have_year_with_curr_manager"
+			        }
+			      ]
+			    },
+			    "HR_analytics_has_year_since_last_promotion": {
+			      "Binding": {
+			        "ConceptualEntity": "HR_Analytics"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "HR_analytics": {
+			          "Target": {
+			            "Entity": "HR_analytics"
+			          }
+			        },
+			        "HR_analytics.year_since_last_promotion": {
+			          "Target": {
+			            "Entity": "HR_analytics.year_since_last_promotion"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "HR_analytics"
+			            },
+			            "Object": {
+			              "Role": "HR_analytics.year_since_last_promotion"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "HR_analytics_have_year_since_last_promotion"
+			        }
+			      ]
+			    },
+			    "HR_analytics_has_year_in_current_role": {
+			      "Binding": {
+			        "ConceptualEntity": "HR_Analytics"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "HR_analytics": {
+			          "Target": {
+			            "Entity": "HR_analytics"
+			          }
+			        },
+			        "HR_analytics.year_in_current_role": {
+			          "Target": {
+			            "Entity": "HR_analytics.year_in_current_role"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "HR_analytics"
+			            },
+			            "Object": {
+			              "Role": "HR_analytics.year_in_current_role"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "HR_analytics_have_year_in_current_role"
+			        }
+			      ]
+			    },
+			    "HR_analytics_has_year_at_company": {
+			      "Binding": {
+			        "ConceptualEntity": "HR_Analytics"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "HR_analytics": {
+			          "Target": {
+			            "Entity": "HR_analytics"
+			          }
+			        },
+			        "HR_analytics.year_at_company": {
+			          "Target": {
+			            "Entity": "HR_analytics.year_at_company"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "HR_analytics"
+			            },
+			            "Object": {
+			              "Role": "HR_analytics.year_at_company"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "HR_analytics_have_year_at_company"
+			        }
+			      ]
+			    },
+			    "HR_analytics_has_work_life_balance": {
+			      "Binding": {
+			        "ConceptualEntity": "HR_Analytics"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "HR_analytics": {
+			          "Target": {
+			            "Entity": "HR_analytics"
+			          }
+			        },
+			        "HR_analytics.work_life_balance": {
+			          "Target": {
+			            "Entity": "HR_analytics.work_life_balance"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "HR_analytics"
+			            },
+			            "Object": {
+			              "Role": "HR_analytics.work_life_balance"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "HR_analytics_have_work_life_balances"
+			        }
+			      ]
+			    },
+			    "HR_analytics_has_training_times_last_year": {
+			      "Binding": {
+			        "ConceptualEntity": "HR_Analytics"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "HR_analytics": {
+			          "Target": {
+			            "Entity": "HR_analytics"
+			          }
+			        },
+			        "HR_analytics.training_times_last_year": {
+			          "Target": {
+			            "Entity": "HR_analytics.training_times_last_year"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "HR_analytics"
+			            },
+			            "Object": {
+			              "Role": "HR_analytics.training_times_last_year"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "HR_analytics_have_training_times_last_year"
+			        }
+			      ]
+			    },
+			    "HR_analytics_has_total_working_year": {
+			      "Binding": {
+			        "ConceptualEntity": "HR_Analytics"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "HR_analytics": {
+			          "Target": {
+			            "Entity": "HR_analytics"
+			          }
+			        },
+			        "HR_analytics.total_working_year": {
+			          "Target": {
+			            "Entity": "HR_analytics.total_working_year"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "HR_analytics"
+			            },
+			            "Object": {
+			              "Role": "HR_analytics.total_working_year"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "HR_analytics_have_total_working_years"
+			        }
+			      ]
+			    },
+			    "HR_analytics_has_stock_option_level": {
+			      "Binding": {
+			        "ConceptualEntity": "HR_Analytics"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "HR_analytics": {
+			          "Target": {
+			            "Entity": "HR_analytics"
+			          }
+			        },
+			        "HR_analytics.stock_option_level": {
+			          "Target": {
+			            "Entity": "HR_analytics.stock_option_level"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "HR_analytics"
+			            },
+			            "Object": {
+			              "Role": "HR_analytics.stock_option_level"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "HR_analytics_have_stock_option_levels"
+			        }
+			      ]
+			    },
+			    "HR_analytics_has_standard_hour": {
+			      "Binding": {
+			        "ConceptualEntity": "HR_Analytics"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "HR_analytics": {
+			          "Target": {
+			            "Entity": "HR_analytics"
+			          }
+			        },
+			        "HR_analytics.standard_hour": {
+			          "Target": {
+			            "Entity": "HR_analytics.standard_hour"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "HR_analytics"
+			            },
+			            "Object": {
+			              "Role": "HR_analytics.standard_hour"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "HR_analytics_have_standard_hours"
+			        }
+			      ]
+			    },
+			    "HR_analytics_has_relationship_satisfaction": {
+			      "Binding": {
+			        "ConceptualEntity": "HR_Analytics"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "HR_analytics": {
+			          "Target": {
+			            "Entity": "HR_analytics"
+			          }
+			        },
+			        "HR_analytics.relationship_satisfaction": {
+			          "Target": {
+			            "Entity": "HR_analytics.relationship_satisfaction"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "HR_analytics"
+			            },
+			            "Object": {
+			              "Role": "HR_analytics.relationship_satisfaction"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "HR_analytics_have_relationship_satisfactions"
+			        }
+			      ]
+			    },
+			    "HR_analytics_has_performance_rating": {
+			      "Binding": {
+			        "ConceptualEntity": "HR_Analytics"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "HR_analytics": {
+			          "Target": {
+			            "Entity": "HR_analytics"
+			          }
+			        },
+			        "HR_analytics.performance_rating": {
+			          "Target": {
+			            "Entity": "HR_analytics.performance_rating"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "HR_analytics"
+			            },
+			            "Object": {
+			              "Role": "HR_analytics.performance_rating"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "HR_analytics_have_performance_rating"
+			        }
+			      ]
+			    },
+			    "HR_analytics_has_percent_salary_hike": {
+			      "Binding": {
+			        "ConceptualEntity": "HR_Analytics"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "HR_analytics": {
+			          "Target": {
+			            "Entity": "HR_analytics"
+			          }
+			        },
+			        "HR_analytics.percent_salary_hike": {
+			          "Target": {
+			            "Entity": "HR_analytics.percent_salary_hike"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "HR_analytics"
+			            },
+			            "Object": {
+			              "Role": "HR_analytics.percent_salary_hike"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "HR_analytics_have_percent_salary_hikes"
+			        }
+			      ]
+			    },
+			    "HR_analytics_has_over_time": {
+			      "Binding": {
+			        "ConceptualEntity": "HR_Analytics"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "HR_analytics": {
+			          "Target": {
+			            "Entity": "HR_analytics"
+			          }
+			        },
+			        "HR_analytics.over_time": {
+			          "Target": {
+			            "Entity": "HR_analytics.over_time"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "HR_analytics"
+			            },
+			            "Object": {
+			              "Role": "HR_analytics.over_time"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "HR_analytics_have_over_time"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "HR_analytics"
+			            },
+			            "Prepositions": [
+			              {
+			                "over": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "HR_analytics.over_time"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "HR_analytics_are_over_over_time"
+			        }
+			      ]
+			    },
+			    "HR_analytics_has_over_18": {
+			      "Binding": {
+			        "ConceptualEntity": "HR_Analytics"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "HR_analytics": {
+			          "Target": {
+			            "Entity": "HR_analytics"
+			          }
+			        },
+			        "HR_analytics.over_18": {
+			          "Target": {
+			            "Entity": "HR_analytics.over_18"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "HR_analytics"
+			            },
+			            "Object": {
+			              "Role": "HR_analytics.over_18"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "HR_analytics_have_over_18"
+			        }
+			      ]
+			    },
+			    "HR_analytics_has_num_company_worked": {
+			      "Binding": {
+			        "ConceptualEntity": "HR_Analytics"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "HR_analytics": {
+			          "Target": {
+			            "Entity": "HR_analytics"
+			          }
+			        },
+			        "HR_analytics.num_company_worked": {
+			          "Target": {
+			            "Entity": "HR_analytics.num_company_worked"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "HR_analytics"
+			            },
+			            "Object": {
+			              "Role": "HR_analytics.num_company_worked"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "HR_analytics_have_num_company_worked"
+			        }
+			      ]
+			    },
+			    "HR_analytics_has_monthly_rate": {
+			      "Binding": {
+			        "ConceptualEntity": "HR_Analytics"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "HR_analytics": {
+			          "Target": {
+			            "Entity": "HR_analytics"
+			          }
+			        },
+			        "HR_analytics.monthly_rate": {
+			          "Target": {
+			            "Entity": "HR_analytics.monthly_rate"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "HR_analytics"
+			            },
+			            "Object": {
+			              "Role": "HR_analytics.monthly_rate"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "HR_analytics_have_monthly_rates"
+			        }
+			      ]
+			    },
+			    "HR_analytics_has_salary_slab": {
+			      "Binding": {
+			        "ConceptualEntity": "HR_Analytics"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "HR_analytics": {
+			          "Target": {
+			            "Entity": "HR_analytics"
+			          }
+			        },
+			        "HR_analytics.salary_slab": {
+			          "Target": {
+			            "Entity": "HR_analytics.salary_slab"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "HR_analytics"
+			            },
+			            "Object": {
+			              "Role": "HR_analytics.salary_slab"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "HR_analytics_have_salary_slabs"
+			        }
+			      ]
+			    },
+			    "HR_analytics_has_monthly_income": {
+			      "Binding": {
+			        "ConceptualEntity": "HR_Analytics"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "HR_analytics": {
+			          "Target": {
+			            "Entity": "HR_analytics"
+			          }
+			        },
+			        "HR_analytics.monthly_income": {
+			          "Target": {
+			            "Entity": "HR_analytics.monthly_income"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "HR_analytics"
+			            },
+			            "Object": {
+			              "Role": "HR_analytics.monthly_income"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "HR_analytics_have_monthly_incomes"
+			        }
+			      ]
+			    },
+			    "HR_analytics_has_marital_status": {
+			      "Binding": {
+			        "ConceptualEntity": "HR_Analytics"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "HR_analytics": {
+			          "Target": {
+			            "Entity": "HR_analytics"
+			          }
+			        },
+			        "HR_analytics.marital_status": {
+			          "Target": {
+			            "Entity": "HR_analytics.marital_status"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "HR_analytics"
+			            },
+			            "Object": {
+			              "Role": "HR_analytics.marital_status"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "HR_analytics_have_marital_statuses"
+			        }
+			      ]
+			    },
+			    "HR_analytics_has_job_satisfaction": {
+			      "Binding": {
+			        "ConceptualEntity": "HR_Analytics"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "HR_analytics": {
+			          "Target": {
+			            "Entity": "HR_analytics"
+			          }
+			        },
+			        "HR_analytics.job_satisfaction": {
+			          "Target": {
+			            "Entity": "HR_analytics.job_satisfaction"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "HR_analytics"
+			            },
+			            "Object": {
+			              "Role": "HR_analytics.job_satisfaction"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "HR_analytics_have_job_satisfactions"
+			        }
+			      ]
+			    },
+			    "HR_analytics_has_job_role": {
+			      "Binding": {
+			        "ConceptualEntity": "HR_Analytics"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "HR_analytics": {
+			          "Target": {
+			            "Entity": "HR_analytics"
+			          }
+			        },
+			        "HR_analytics.job_role": {
+			          "Target": {
+			            "Entity": "HR_analytics.job_role"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "HR_analytics"
+			            },
+			            "Object": {
+			              "Role": "HR_analytics.job_role"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "HR_analytics_have_job_roles"
+			        }
+			      ]
+			    },
+			    "HR_analytics_has_job_level": {
+			      "Binding": {
+			        "ConceptualEntity": "HR_Analytics"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "HR_analytics": {
+			          "Target": {
+			            "Entity": "HR_analytics"
+			          }
+			        },
+			        "HR_analytics.job_level": {
+			          "Target": {
+			            "Entity": "HR_analytics.job_level"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "HR_analytics"
+			            },
+			            "Object": {
+			              "Role": "HR_analytics.job_level"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "HR_analytics_have_job_levels"
+			        }
+			      ]
+			    },
+			    "HR_analytics_has_job_involvement": {
+			      "Binding": {
+			        "ConceptualEntity": "HR_Analytics"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "HR_analytics": {
+			          "Target": {
+			            "Entity": "HR_analytics"
+			          }
+			        },
+			        "HR_analytics.job_involvement": {
+			          "Target": {
+			            "Entity": "HR_analytics.job_involvement"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "HR_analytics"
+			            },
+			            "Object": {
+			              "Role": "HR_analytics.job_involvement"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "HR_analytics_have_job_involvements"
+			        }
+			      ]
+			    },
+			    "HR_analytics_has_hourly_rate": {
+			      "Binding": {
+			        "ConceptualEntity": "HR_Analytics"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "HR_analytics": {
+			          "Target": {
+			            "Entity": "HR_analytics"
+			          }
+			        },
+			        "HR_analytics.hourly_rate": {
+			          "Target": {
+			            "Entity": "HR_analytics.hourly_rate"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "HR_analytics"
+			            },
+			            "Object": {
+			              "Role": "HR_analytics.hourly_rate"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "HR_analytics_have_hourly_rates"
+			        }
+			      ]
+			    },
+			    "HR_analytics_has_gender": {
+			      "Binding": {
+			        "ConceptualEntity": "HR_Analytics"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "HR_analytics": {
+			          "Target": {
+			            "Entity": "HR_analytics"
+			          }
+			        },
+			        "HR_analytics.gender": {
+			          "Target": {
+			            "Entity": "HR_analytics.gender"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "HR_analytics"
+			            },
+			            "Object": {
+			              "Role": "HR_analytics.gender"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "HR_analytics_have_genders"
+			        }
+			      ]
+			    },
+			    "HR_analytics_has_environment_satisfaction": {
+			      "Binding": {
+			        "ConceptualEntity": "HR_Analytics"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "HR_analytics": {
+			          "Target": {
+			            "Entity": "HR_analytics"
+			          }
+			        },
+			        "HR_analytics.environment_satisfaction": {
+			          "Target": {
+			            "Entity": "HR_analytics.environment_satisfaction"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "HR_analytics"
+			            },
+			            "Object": {
+			              "Role": "HR_analytics.environment_satisfaction"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "HR_analytics_have_environment_satisfactions"
+			        }
+			      ]
+			    },
+			    "HR_analytics_has_employee_number": {
+			      "Binding": {
+			        "ConceptualEntity": "HR_Analytics"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "HR_analytics": {
+			          "Target": {
+			            "Entity": "HR_analytics"
+			          }
+			        },
+			        "HR_analytics.employee_number": {
+			          "Target": {
+			            "Entity": "HR_analytics.employee_number"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "HR_analytics"
+			            },
+			            "Object": {
+			              "Role": "HR_analytics.employee_number"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "HR_analytics_have_employee_numbers"
+			        }
+			      ]
+			    },
+			    "HR_analytics_has_employee_count": {
+			      "Binding": {
+			        "ConceptualEntity": "HR_Analytics"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "HR_analytics": {
+			          "Target": {
+			            "Entity": "HR_analytics"
+			          }
+			        },
+			        "HR_analytics.employee_count": {
+			          "Target": {
+			            "Entity": "HR_analytics.employee_count"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "HR_analytics"
+			            },
+			            "Object": {
+			              "Role": "HR_analytics.employee_count"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "HR_analytics_have_employee_counts"
+			        }
+			      ]
+			    },
+			    "HR_analytics_has_education_field": {
+			      "Binding": {
+			        "ConceptualEntity": "HR_Analytics"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "HR_analytics": {
+			          "Target": {
+			            "Entity": "HR_analytics"
+			          }
+			        },
+			        "HR_analytics.education_field": {
+			          "Target": {
+			            "Entity": "HR_analytics.education_field"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "HR_analytics"
+			            },
+			            "Object": {
+			              "Role": "HR_analytics.education_field"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "HR_analytics_have_education_fields"
+			        }
+			      ]
+			    },
+			    "HR_analytics_has_education": {
+			      "Binding": {
+			        "ConceptualEntity": "HR_Analytics"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "HR_analytics": {
+			          "Target": {
+			            "Entity": "HR_analytics"
+			          }
+			        },
+			        "HR_analytics.education": {
+			          "Target": {
+			            "Entity": "HR_analytics.education"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "HR_analytics"
+			            },
+			            "Object": {
+			              "Role": "HR_analytics.education"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "HR_analytics_have_educations"
+			        }
+			      ]
+			    },
+			    "HR_analytics_has_distance_from_home": {
+			      "Binding": {
+			        "ConceptualEntity": "HR_Analytics"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "HR_analytics": {
+			          "Target": {
+			            "Entity": "HR_analytics"
+			          }
+			        },
+			        "HR_analytics.distance_from_home": {
+			          "Target": {
+			            "Entity": "HR_analytics.distance_from_home"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "HR_analytics"
+			            },
+			            "Object": {
+			              "Role": "HR_analytics.distance_from_home"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "HR_analytics_have_distance_from_home"
+			        }
+			      ]
+			    },
+			    "HR_analytics_has_department": {
+			      "Binding": {
+			        "ConceptualEntity": "HR_Analytics"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "HR_analytics": {
+			          "Target": {
+			            "Entity": "HR_analytics"
+			          }
+			        },
+			        "HR_analytics.department": {
+			          "Target": {
+			            "Entity": "HR_analytics.department"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "HR_analytics"
+			            },
+			            "Object": {
+			              "Role": "HR_analytics.department"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "HR_analytics_have_departments"
+			        }
+			      ]
+			    },
+			    "HR_analytics_has_daily_rate": {
+			      "Binding": {
+			        "ConceptualEntity": "HR_Analytics"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "HR_analytics": {
+			          "Target": {
+			            "Entity": "HR_analytics"
+			          }
+			        },
+			        "HR_analytics.daily_rate": {
+			          "Target": {
+			            "Entity": "HR_analytics.daily_rate"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "HR_analytics"
+			            },
+			            "Object": {
+			              "Role": "HR_analytics.daily_rate"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "HR_analytics_have_daily_rates"
+			        }
+			      ]
+			    },
+			    "HR_analytics_has_business_travel": {
+			      "Binding": {
+			        "ConceptualEntity": "HR_Analytics"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "HR_analytics": {
+			          "Target": {
+			            "Entity": "HR_analytics"
+			          }
+			        },
+			        "HR_analytics.business_travel": {
+			          "Target": {
+			            "Entity": "HR_analytics.business_travel"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "HR_analytics"
+			            },
+			            "Object": {
+			              "Role": "HR_analytics.business_travel"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "HR_analytics_have_business_travels"
+			        }
+			      ]
+			    },
+			    "HR_analytics_has_attrition": {
+			      "Binding": {
+			        "ConceptualEntity": "HR_Analytics"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "HR_analytics": {
+			          "Target": {
+			            "Entity": "HR_analytics"
+			          }
+			        },
+			        "HR_analytics.attrition": {
+			          "Target": {
+			            "Entity": "HR_analytics.attrition"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "HR_analytics"
+			            },
+			            "Object": {
+			              "Role": "HR_analytics.attrition"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "HR_analytics_have_attritions"
+			        }
+			      ]
+			    },
+			    "HR_analytics_has_age_group": {
+			      "Binding": {
+			        "ConceptualEntity": "HR_Analytics"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "HR_analytics": {
+			          "Target": {
+			            "Entity": "HR_analytics"
+			          }
+			        },
+			        "HR_analytics.age_group": {
+			          "Target": {
+			            "Entity": "HR_analytics.age_group"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "HR_analytics"
+			            },
+			            "Object": {
+			              "Role": "HR_analytics.age_group"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "HR_analytics_have_age_groups"
+			        }
+			      ]
+			    },
+			    "HR_analytics_has_age": {
+			      "Binding": {
+			        "ConceptualEntity": "HR_Analytics"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "HR_analytics": {
+			          "Target": {
+			            "Entity": "HR_analytics"
+			          }
+			        },
+			        "HR_analytics.age": {
+			          "Target": {
+			            "Entity": "HR_analytics.age"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "HR_analytics"
+			            },
+			            "Object": {
+			              "Role": "HR_analytics.age"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "HR_analytics_have_ages"
+			        },
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "HR_analytics"
+			            },
+			            "Adjectives": [
+			              {
+			                "old": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "young": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "HR_analytics.age"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "age_indicates_how_old_HR_analytics_are"
+			        }
+			      ]
+			    },
+			    "HR_analytics_has_emp_ID": {
+			      "Binding": {
+			        "ConceptualEntity": "HR_Analytics"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "HR_analytics": {
+			          "Target": {
+			            "Entity": "HR_analytics"
+			          }
+			        },
+			        "HR_analytics.emp_ID": {
+			          "Target": {
+			            "Entity": "HR_analytics.emp_ID"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "HR_analytics"
+			            },
+			            "Object": {
+			              "Role": "HR_analytics.emp_ID"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "HR_analytics_have_emp_ID"
+			        }
+			      ]
+			    },
+			    "HR_analytics_has_nb_promotions_cette_année": {
+			      "Binding": {
+			        "ConceptualEntity": "HR_Analytics"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "HR_analytics": {
+			          "Target": {
+			            "Entity": "HR_analytics"
+			          }
+			        },
+			        "HR_analytics.nb_promotions_cette_année": {
+			          "Target": {
+			            "Entity": "HR_analytics.nb_promotions_cette_année"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "HR_analytics"
+			            },
+			            "Object": {
+			              "Role": "HR_analytics.nb_promotions_cette_année"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "HR_analytics_have_nb_promotions_cette_année"
+			        }
+			      ]
+			    }
+			  },
+			  "Agents": {
+			    "Internal": {
+			      "Version": "1.1.0"
+			    }
+			  }
+			}
+		contentType: json
+

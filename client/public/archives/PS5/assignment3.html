@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PS5 Slim - Assignment 3</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif; /* Sans-serif requirement */
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        /* Layout Requirement: 980px centered */
+        #container {
+            width: 980px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+        }
+        header {
+            text-align: center;
+            border-bottom: 2px solid #0070d1; /* PlayStation Blue */
+            
+        }
+        header img {
+            display: block;
+            margin: 0 auto;   /* centers images inside header */
+        }
+        /* Container for the product image and description */
+        .product-main {
+            overflow: auto; /* Clears floats */
+            margin-bottom: 20px;
+        }
+
+        .product-image {
+            float: left; /* Pushes image to left */
+            width: 300px;
+            margin-right: 30px;
+            text-align: center;
+        }
+
+        .product-description {
+            float: left; /* Pushes text to the right of the image */
+            width: 630px; /* 300px (image) + 30px (margin) + 630px = 960px total */
+        }
+        .product-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        .table-header {
+            background-color: #008b8b; /* Dark teal color from instructions */
+            color: white;
+            text-align: left;
+        }
+        .product-table th, .product-table td {
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+        .alternate-row {
+            background-color: #f2f2f2;
+        }
+        .nav-right {
+            float: right;       /* Pushes the div to the absolute right of the 980px container */
+            text-align: right;
+            margin-top: 10px;
+        }
+        .description-texte {
+            text-align: justify; /* Aligne le texte proprement à gauche ET à droite */
+            line-height: 1.6;    /* Ajoute un peu d'espace entre les lignes pour la lisibilité */
+            margin: 0;           /* Enlève les marges par défaut si nécessaire */
+        }
+
+        .right-column {
+            float: left;
+            width: 620px;        /* Ajuste la largeur pour tenir dans les 980px totaux */
+            padding-left: 20px;  /* Crée un espace entre l'image et le texte */
+        }
+        /* Footer / Copyright */
+        footer {
+            margin-top: 40px;
+            text-align: center;
+            font-size: 0.8em; 
+            border-top: 1px solid #ddd;
+            padding-top: 20px;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+   
+<!-- ZONON Etienne - 301559049 - Section 402 -->
+
+    <div id="container">
+        <header>
+            <!-- Correction du chemin de la bannière -->
+            <img src="/archives/PS5/banner_PS5.png" alt="PlayStation 5 Banner" width="500">
+            <a href="https://playstation.com">
+                <!-- Correction du chemin du logo Sony -->
+                <img src="/archives/PS5/Sony.png" alt="Sony Logo" width="100">
+            </a>
+            <h1>PlayStation 5 Slim</h1>
+            
+            <nav>
+                 <div class="nav-right">
+                     <!-- Correction du lien vers la page d'accueil de l'archive -->
+                     <a href="/archives/PS5/INDEX.html" class="nav_right">Home Page</a>
+                </div>
+            </nav>
+        </header>
+
+        <section>
+           <div>
+                <div class="product-image">
+                    <h3 style="color: #008b8b;">Game / Computer</h3>
+                    <!-- Correction du chemin de l'image de la console -->
+                    <img src="/archives/PS5/ps5_standard.png" alt="PS5 Slim" width="300">
+                    <br>
+                    <a href="Details.html">View Larger Picture</a>
+                </div>
+
+                <div class="right-column">
+                        <h3 style="color: grey;"> PS5 slim </h3>
+                        <p class="description-texte">Experience the next generation of interactive entertainment with the PlayStation 5 Slim (Model Group CFI-2000). 
+                            This redesigned console packs the same immense power of the original PS5 into a sleek, 
+                            more compact form factor, featuring a massive 1TB SSD for near-instant load times. Harness the
+                            full potential of a custom-integrated CPU and GPU to witness stunning 4K graphics and ultra-smooth 
+                            gameplay at up to 120fps. With advanced Ray Tracing technology, every environment comes to life with
+                             realistic shadows and reflections. Beyond the visuals, the PS5 Slim offers an unparalleled level of 
+                             immersion through the DualSense wireless controller’s haptic feedback and adaptive triggers, paired
+                              with the breathtaking precision of Tempest 3D AudioTech. Whether you are exploring new worlds or playing 
+                              your existing library of supported PS4 games, the PS5 Slim sets a new standard for what a gaming console can achieve.</p>
+                        <ul>
+                            <li>Price: $649.99 CAD</li>
+                            <li>Ultra-High Speed 1TB SSD</li>
+                            <li>Ray Tracing Support</li>
+                            <li>4K-TV Gaming at up to 120fps</li>
+                            <li>HDR Technology</li>
+                            <li>Tempest 3D AudioTech</li>
+                        </ul>
+                </div>
+            </div>
+            
+            <h3 style="color: #008b8b;">Model Comparison & Pricing</h3>
+            <table class="product-table">
+                <tr class="table-header">
+                    <th>Description</th>
+                    <th>Price</th>
+                </tr>
+                <tr>
+                    <td>PlayStation 5 Slim Digital Edition (Model CFI-2000)</td>
+                    <td>$579.99 CAD</td>
+                </tr>
+                <tr class="alternate-row">
+                    <td>PlayStation 5 Slim Disc Edition (Model CFI-2000)</td>
+                    <td>$649.99 CAD</td>
+                </tr>
+                <tr>
+                    <td>PlayStation 5 Pro Console (Enhanced Graphics)</td>
+                    <td>$959.99 CAD</td>
+                </tr>
+            </table>    
+    
+        </section>    
+            
+        <h3>Find a Local Distributor: Alberta, Nunavit, Quebec</h3>
+        <!-- Correction du chemin de la carte du Canada -->
+        <img src="/archives/PS5/canada_map.jpg" alt="Map of Canada showing distributor locations" usemap="#canadamap" width="980">
+
+        <map name="canadamap">
+            <!-- Alberta -->
+            <area shape="rect" 
+                  coords="80,550,250,800"
+                  href="https://londondrugs.com"
+                  alt="Alberta"
+                  title="Buy PlayStation 5 Slim in Alberta - London Drugs"
+                  target="_blank">
+
+            <!-- Nunavit-->
+            <area shape="rect" 
+                  coords="330,230,450,330"
+                  href="https://bestbuy.ca"
+                  alt="Nunavit"
+                  title="Buy PlayStation 5 Slim in Nunavit - Best Buy Canada"
+                  target="_blank">
+
+            <!-- Quebec -->
+            <area shape="rect" 
+                  coords="850,850,650,520"
+                  href="https://gamestop.ca"
+                  alt="Quebec"
+                  title="Buy PlayStation 5 Slim in Quebec - GameStop Canada"
+                  target="_blank">
+        </map>
+        
+        <footer>
+            <p>&copy; Copyright ZONON Etienne, 301559049, COMP213, Semester 1</p>
+        </footer>
+    </div>
+</body>
+</html>

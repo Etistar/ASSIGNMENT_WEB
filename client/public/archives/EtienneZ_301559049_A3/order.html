@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Order Page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+   <!--
+
+
+      Author: Etienne ZONON
+      Date:   31/05/2026
+      Student_id :301559049
+
+     
+   -->
+
+<body>
+
+  <!-- C'est ce header "banner-bg" qui va porter la grande image de fond -->
+<header class="banner-bg">
+  <div class="header-overlay">
+    <h1></h1>
+    <p class="subtitle">Order online</p>
+    
+    <nav class="main-nav">
+      <a href="home.html" >Home</a>
+      <a href="about.html">About</a>
+      <div class="dropdown">
+        <button class="dropbtn">Menu</button>
+        <div class="dropdown-content">
+          <a href="calendar.html">Calendar</a>
+          <a href="gallery.html">Gallery</a>
+          <a href="menulist.html">Menu List</a>
+        </div>
+      </div>
+      <a href="order.html" class="active" >Order</a>
+      <a href="location.html">Location</a>
+      <a href="contact.html">Contact</a>
+      <a href="sitemap.html">Site Map</a>
+    </nav>
+  </div>
+</header>
+
+  
+
+<div class="menu-table-container">
+  <table class="menu-table">
+    <thead>
+      <tr>
+        <th class="col-select">Select</th>
+        <th class="col-item">Menu Item</th>
+      </tr>
+    </thead>
+    <tbody>
+      
+      <tr>
+        <td><input type="checkbox" id="burger" value="12.99" onchange="calculateTotal()"></td>
+        <td>Burger ($9.95)</td>
+      </tr>
+      <tr>
+        <td><input type="checkbox" id="pizza" value="15.99" onchange="calculateTotal()"></td>
+        <td>Pizza ($12.95)</td>
+      </tr>
+      <tr>
+        <td><input type="checkbox" id="Shawarma" value="15.99" onchange="calculateTotal()"></td>
+        <td>Shawarma ($10.50)</td>
+      </tr>
+      <tr>
+        <td><input type="checkbox" id="hot_dog" value="9.99" onchange="calculateTotal()"></td>
+        <td>Hot dog ($4.50)</td>
+      </tr>
+      <tr>
+        <td><input type="checkbox" id="brochette" value="10.99" onchange="calculateTotal()"></td>
+        <td>Chicken Brochette ($11)</td>
+      </tr>
+      <tr>
+        <td><input type="checkbox" id="CesarSalad" value="14.99" onchange="changeTotal()"></td>
+        <td>Cesar Salad ($7.95)</td>
+      </tr>
+      <tr>
+        <td><input type="checkbox" id="poutine" value="8.99" onchange="calculateTotal()"></td>
+        <td>Classic Poutine ($8.50)</td>
+      </tr>
+      <tr>
+        <td><input type="checkbox" id="tacos" value="12.49" onchange="calculateTotal()"></td>
+        <td>Street Tacos ($9.00)</td>
+      </tr>
+      <tr>
+        <td><input type="checkbox" id="nuggets" value="6.99" onchange="calculateTotal()"></td>
+        <td>Chicken Nuggets ($6.00)</td>
+      </tr>
+      <tr>
+        <td><input type="checkbox" id="fish_and_chips" value="14.99" onchange="calculateTotal()"></td>
+        <td>Fish and Chips ($13.95)</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- Zone du bas avec le bouton Submit et le Total -->
+<div class="table-footer">
+  <!-- Modification de la fonction appelée pour déclencher l'alerte finale -->
+  <button class="submit-btn" onclick="submitOrder()">Submit</button>
+  
+  <div class="total-display">
+    <div><strong>Food Total:</strong> <span id="foodTotal">$0.00</span></div>
+    <!-- Pensez à renommer le texte de Tax (7%) en Tax (13%) pour votre note ! -->
+    <div><strong>Tax (13%):</strong> <span id="foodTax">$0.00</span></div>
+    <div><strong>Order Total:</strong> <span id="totalBill">$0.00</span></div>
+  </div>
+</div>
+
+
+
+<script src="order.js"></script>
+</body>
+</html>

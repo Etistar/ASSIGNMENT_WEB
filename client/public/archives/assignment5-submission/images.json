@@ -1,0 +1,42 @@
+[
+    {
+        "filepath": "images/image1.jpg",
+        "duration": "2500"
+    },
+    {
+        "filepath": "images/image2.jpg",
+        "duration": "2500"
+    },
+    {
+        "filepath": "images/image3.jpg",
+        "duration": "2500"
+    },
+    {
+        "filepath": "images/image4.jpg",
+        "duration": "2500"
+    },
+    {
+        "filepath": "images/image5.jpg",
+        "duration": "2500"
+    },
+    {
+        "filepath": "images/image6.jpg",
+        "duration": "2500"
+    },
+    {
+        "filepath": "images/image7.jpg",
+        "duration": "2500"
+    },
+    {
+        "filepath": "images/image8.jpg",
+        "duration": "2500"
+    },
+    {
+        "filepath": "images/image9.jpg",
+        "duration": "2500"
+    },
+    {
+        "filepath": "images/image10.jpg",
+        "duration": "2500"
+    }
+]

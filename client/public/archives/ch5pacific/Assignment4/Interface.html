@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>COMP125 - Assignment 4</title>
+    <style>
+        /* Simple styling to mirror the screenshot layout */
+        label {
+            display: block;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+        .required {
+            color: red;
+        }
+        .note {
+            font-weight: normal;
+            font-size: 0.9em;
+        }
+        #errorArea {
+            margin-top: 15px;
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+        .buttons {
+            margin-top: 15px;
+        }
+    </style>
+<script src="Assigment4.js" defer></script> </script>
+</head>
+<body>
+
+    <h2>Assignment 4</h2>
+
+    <div id="errorArea"></div>
+
+    <form id="registrationForm" novalidate>
+        
+        <label for="firstName">First Name <span class="required">*</span></label>
+        <input type="text" id="firstName">
+
+        <label for="lastName">Last Name <span class="required">*</span></label>
+        <input type="text" id="lastName">
+
+        <label for="email">Email <span class="required">*</span></label>
+        <input type="email" id="email">
+
+        <label for="age">Age (18+ only) <span class="required">*</span></label>
+        <input type="number" id="age">
+
+        <label for="address">Address <span class="required">*</span></label>
+        <input type="text" id="address">
+
+        <label for="city">City <span class="required">*</span></label>
+        <input type="text" id="city">
+
+        <label for="province">Province <span class="required">*</span> <span class="note">(must be QC, ON, MN, SK, AB, or BC)</span></label>
+        <select id="province">
+            <option value="">Select One</option>
+            <option value="QC">QC</option>
+            <option value="ON">ON</option>
+            <option value="MN">MN</option>
+            <option value="SK">SK</option>
+            <option value="AB">AB</option>
+            <option value="BC">BC</option>
+        </select>
+
+        <label for="postalCode">Postal Code <span class="required">*</span></label>
+        <input type="text" id="postalCode" placeholder="A0A0A0">
+
+        <label for="password">Password <span class="required">*</span> <span class="note">(Must contain 6 characters, one digit, and one uppercase)</span></label>
+        <input type="password" id="password">
+
+        <label for="confirmPassword">Confirm Password <span class="required">*</span></label>
+        <input type="password" id="confirmPassword">
+
+        <div class="buttons">
+            <button type="submit">Submit</button>
+            <button type="reset">Reset Form</button>
+        </div>
+
+    </form>
+
+    <script src="validation.js"></script>
+</body>
+</html>

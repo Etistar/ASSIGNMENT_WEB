@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pacific Trails Resort :: Reservations</title>
+    <link rel="stylesheet" href="pacific.css">
+</head>
+
+<body>
+<div id="wrapper">
+
+<header>
+    <h1>Pacific Trails Resort Case Study</h1>
+</header>
+
+<nav>
+    <a href="index.html"><b>Home</b></a> &nbsp;&nbsp;
+    <a href="yurts.html"><b>Yurts</b></a> &nbsp;&nbsp;
+    <a href="activities.html"><b>Activities</b></a> &nbsp;&nbsp;
+    <a href="reservations.html"><b>Reservations</b></a>
+</nav>
+
+<main>
+    <h2>Reservations at Pacific Trails</h2>
+    <h3>Contact Us Today!</h3>
+    
+    <p>Required fields are marked with an asterisk *.</p>
+
+    <form method="post" action="http://webdevbasics.net/scripts/pacific.php">
+        
+        <label for="myFName">*First Name:</label>
+        <input type="text" id="myFName" name="myFName" required>
+
+        <label for="myLName">*Last Name:</label>
+        <input type="text" id="myLName" name="myLName" required>
+
+        <label for="myEmail">*E-mail Address:</label>
+        <input type="email" id="myEmail" name="myEmail" size="35" required>
+
+        <label for="myphone">Phone Number:</label>
+        <input type="tel" id="myphone" name="myphone" maxlength="12">
+
+        <label for="myArrival">Arrival Date:</label>
+        <input type="date" id="myArrival" name="myArrival">
+
+        <label for="myNights">Nights:</label>
+        <input type="number" id="myNights" name="myNights" min="1" max="14">
+
+        <label for="myComments">*Comments:</label>
+        <textarea id="myComments" name="myComments" rows="2" cols="30" required></textarea>
+
+        <input type="submit" value="Submit">
+
+    </form>
+
+    <div id="contact">
+        <span class="resort">Pacific Trails Resort</span><br>
+        12010 Pacific Trails Road <br>
+        Zephyr, CA 95555 <br><br>
+        888-555-5555
+    </div>
+</main>
+
+
+<footer>
+    <small><i>
+        Copyright &copy; 2026 Pacific Trails Resort<br>
+        <a href="mailto:ezonon@my.centennialcollege.ca">Etienne ZONON</a>
+    </i></small>
+</footer>
+
+</div>
+</body>
+</html>

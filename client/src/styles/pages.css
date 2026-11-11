@@ -1,0 +1,388 @@
+/* Page Home */
+.hero {
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 4rem 2rem;
+  background: linear-gradient(135deg, #f0f9ff, #eef2ff);
+}
+
+.hero h1 {
+  font-size: 3rem;
+  color: var(--dark-color);
+  margin-bottom: 1rem;
+}
+
+.hero-subtitle {
+  color: var(--primary-color);
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+.mission {
+  max-width: 600px;
+  margin-bottom: 2rem;
+  color: var(--text-color);
+  font-size: 1.1rem;
+}
+
+/* Page About */
+.about-container {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  max-width: 1000px;
+  margin: 3rem auto;
+  padding: 2rem;
+  background: white;
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+}
+
+.about-image img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+}
+
+.about-content h2 {
+  color: var(--dark-color);
+  margin-bottom: 0.25rem;
+}
+
+.role {
+  color: var(--primary-color);
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.about-content p:not(.role) {
+  margin-bottom: 1rem;
+}
+
+.about-content .btn {
+  margin-top: 1rem;
+}
+
+/* Page Projects */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 3rem auto;
+  padding: 0 2rem;
+}
+
+.project-card {
+  background: white;
+  border-radius: var(--border-radius);
+  overflow: hidden;
+  box-shadow: var(--box-shadow);
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+.project-image img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.project-info {
+  padding: 1.5rem;
+}
+
+.project-info h3 {
+  color: var(--dark-color);
+  margin-bottom: 0.5rem;
+}
+
+.project-desc {
+  margin-bottom: 1rem;
+}
+
+.project-role, .project-outcome {
+  margin-bottom: 0.5rem;
+}
+
+.project-role strong, .project-outcome strong {
+  color: var(--primary-color);
+}
+
+/* Page Education */
+.education-timeline {
+  max-width: 800px;
+  margin: 3rem auto;
+  padding: 0 2rem;
+}
+
+.qualification-card {
+  background: white;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  border-left: 5px solid var(--primary-color);
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+}
+
+.qualification-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.qualification-header h3 {
+  color: var(--dark-color);
+}
+
+.qualification-period {
+  background-color: #dbeafe;
+  color: var(--primary-color);
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  font-size: 0.875rem;
+  white-space: nowrap;
+}
+
+.qualification-institution {
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.qualification-credential {
+  color: var(--text-color);
+}
+
+/* Page Services */
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 3rem auto;
+  padding: 0 2rem;
+}
+
+.service-card {
+  background: white;
+  padding: 2rem;
+  border-radius: var(--border-radius);
+  text-align: center;
+  box-shadow: var(--box-shadow);
+  transition: transform 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+}
+
+.service-icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.service-card h3 {
+  color: var(--dark-color);
+  margin-bottom: 0.75rem;
+}
+
+/* Page Contact */
+.contact-container {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  gap: 2rem;
+  max-width: 1000px;
+  margin: 3rem auto;
+  padding: 2rem;
+}
+
+.contact-info {
+  background: var(--primary-color);
+  color: white;
+  padding: 2rem;
+  border-radius: var(--border-radius);
+}
+
+.contact-info h2 {
+  margin-bottom: 1.5rem;
+}
+
+.contact-form {
+  background: white;
+  padding: 2rem;
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.25rem;
+  font-weight: 600;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #d1d5db;
+  border-radius: var(--border-radius);
+  font-size: 1rem;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: 2px solid var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+
+  .nav-links.open {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: white;
+    box-shadow: var(--box-shadow);
+    padding: 1rem 2rem;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .about-container {
+    flex-direction: column;
+  }
+
+  .contact-container {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+.page-loading,
+.release-note {
+  text-align: center;
+  color: var(--text-color);
+}
+
+.release-note {
+  margin-top: -1rem;
+  margin-bottom: 1.5rem;
+  font-size: 0.95rem;
+  color: var(--primary-color);
+  font-weight: 600;
+}
+
+.auth-card,
+.crud-panel {
+  max-width: 720px;
+  margin: 1.5rem auto;
+  background: #ffffff;
+  padding: 2rem;
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+}
+
+.auth-card h1,
+.crud-panel h2 {
+  margin-bottom: 1rem;
+  color: var(--dark-color);
+}
+
+.auth-note,
+.auth-switch {
+  margin: 0.75rem 0 1rem;
+}
+
+.form-alert {
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.form-alert.error {
+  background: #fee2e2;
+  color: #991b1b;
+}
+
+.form-alert.success {
+  background: #dcfce7;
+  color: #166534;
+}
+
+.form-alert.info {
+  background: #e0f2fe;
+  color: #075985;
+}
+
+.record-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 0.5rem;
+}
+
+.btn-danger {
+  background-color: #b91c1c;
+  color: white;
+}
+
+.btn:disabled {
+  opacity: 0.65;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.contact-profile-box .contact-form {
+  background: transparent;
+  box-shadow: none;
+  padding: 0;
+}
+
+.api-result {
+  max-width: 720px;
+  margin: 1rem auto;
+  padding: 1rem;
+  background: #111827;
+  color: #f9fafb;
+  border-radius: 8px;
+  overflow: auto;
+}
+
+.message-list {
+  max-width: 800px;
+  margin: 1.5rem auto;
+}
